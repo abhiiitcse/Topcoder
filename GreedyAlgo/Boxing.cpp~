@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#define FOR(i,a,b) for(int i=a;i<=b;i++)
+using namespace std;
+typedef vector<int> vi;
+class Boxing{
+public:
+  int maxCredit(vi a,vi b,vi c,vi d,vi e);
+};
+int main(){
+  Boxing a;
+  int a= [1,2,3,4];
+  int b= [1,2,3,4];
+  int c= [1,2,3,4];
+  int d= [1,2,3,4];
+  int e= [1,2,3,4];
+  vi av(a,a+sizeof(a)/sizeof(a[0]));
+  return 0;
+}
